@@ -1,0 +1,57 @@
+.containerOne {
+  width: 100%;
+  height: 200px;
+}
+
+.takePhoto {
+  width: 20px;
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  font-size: 1em;
+  border-radius: 3px;
+  box-shadow: 3px 3px 1px #0b4a95;
+  background-image: linear-gradient(#579cf0, #0861cb);
+}
+.disp {
+  height: 207px;
+  box-sizing: border-box;
+}
+.video {
+  display: none;
+}
+.canvas {
+  width: 330px;
+  height: 200px;
+  margin: 5px;
+  box-sizing: border-box;
+  background: linear-gradient(#87bbf9, #3380dc);
+  border: 1px dashed black;
+  border-radius: 5px;
+}
+
+.takePhoto {
+  width: 121px;
+  margin-top: 0px;
+  margin: 1px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shotsTaken {
+  width: 342px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+.images {
+  width: 66px;
+  height: 55px;
+  background: linear-gradient(#87bbf9, #3380dc);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

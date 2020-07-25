@@ -1,0 +1,79 @@
+:root {
+  --wheelcolor: white;
+  --wheelbutton: rgb(220, 220, 220);
+}
+
+.wheelBody {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: none;
+}
+
+.wheel {
+  /* background-color: var(--wheelcolor); */
+  background-color: var(--wheelcolor);
+  height: 230px;
+  border-radius: 50%;
+  width: 230px;
+}
+
+.innerWheel {
+  position: absolute;
+  top: 290px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 88px;
+  height: 88px;
+  margin: auto;
+  border-radius: 50%;
+  background: var(--wheelbutton);
+  border-image: initial;
+}
+
+.midRow {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  top: 60%;
+  user-select: none;
+  pointer-events: none;
+  max-height: 13px;
+  margin: 0px 0px 0px 91px;
+}
+
+.playPause {
+  position: absolute;
+  bottom: 10%;
+  user-select: none;
+  pointer-events: none;
+  max-height: 13px;
+  margin: 0px auto;
+  margin-left: 100px;
+}
+
+.fastForw {
+  position: absolute;
+  right: 8%;
+  user-select: none;
+  pointer-events: none;
+  max-height: 13px;
+  margin: 108px 60px 0px 0px;
+}
+
+.rewind {
+  position: absolute;
+  /* lefts: 8%; */
+  user-select: none;
+  pointer-events: none;
+  max-height: 13px;
+  margin: 110px 0px 0px 20px;
+}
